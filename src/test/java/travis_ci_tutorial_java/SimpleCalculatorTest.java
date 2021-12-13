@@ -17,7 +17,7 @@ public class SimpleCalculatorTest {
 	}
 	public void testDivide() {
 		SimpleCalculator dcalc = new SimpleCalculator();
-		assertEquals(dcalc.divide(6, 0), 0);
+		assertEquals(dcalc.divide(6, 0), 6);
 	}
 	public void testMultiple() {
 		SimpleCalculator mcalc = new SimpleCalculator();
