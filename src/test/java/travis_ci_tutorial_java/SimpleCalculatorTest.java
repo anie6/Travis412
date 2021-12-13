@@ -21,6 +21,6 @@ public class SimpleCalculatorTest {
 	}
 	public void testMultiple() {
 		SimpleCalculator mcalc = new SimpleCalculator();
-		assertEquals(mcalc.divide(6, 3), 18);
+		assertEquals(mcalc.multi(6, 3), 18);
 	}
 }
