@@ -19,4 +19,8 @@ public class SimpleCalculatorTest {
 		SimpleCalculator dcalc = new SimpleCalculator();
 		assertEquals(dcalc.divide(6, 3), 2);
 	}
+	public void testMultiple() {
+		SimpleCalculator mcalc = new SimpleCalculator();
+		assertEquals(mcalc.divide(6, 3), 18);
+	}
 }
